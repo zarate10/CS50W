@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Google</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <header style="justify-content: flex-start;">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./index.html" id="google-advanced"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" width="70"></a>
+                    </li>                
+                </ul>
+            </nav>
+        </header>
+       <div class="wrapper-form">
+
+        <h1>Advanced Search</h1>
+
+        <h2>Find pages with...</h2>
+
+        <form action="https://www.google.com/search" method="get">
+
+            <div class="form-group">
+
+                <div class="input-box">
+                    <label for="uno">all these words:</label>
+                    <input type="text" name="as_q" id="uno"  autocomplete="off">
+                    <div class="clarification">
+                        Type the important words: <span class="monospace">tri-colour rat terrier</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="dos">This exact word or phrase:</label>
+                    <input type="text" name="as_epq" id="dos" autocomplete="off">
+                    <div class="clarification">
+                        Put exact words in quotes: <span class="monospace">"rat terrier"</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="tres">Any of these words: </label>
+                    <input type="text" name="as_oq" id="tres" autocomplete="off">
+                    <div class="clarification">
+                        Type OR between all the words you want: <span class="monospace">miniature OR standard</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="cuatro">None of these words:</label>
+                    <input type="text" name="as_eq" id="cuatro" autocomplete="off">
+                    <div class="clarification">
+                        Put a minus sign just before words that you don't want: <span class="monospace">-rodent, -"Jack Russell"</span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="right-align">
+                        <input type="submit" class="blue-button" value="Advanced Search">
+                    </div>
+                </div>
+            </div>
+        </form>
+       </div>
+    </body>
+</html>
