@@ -1,0 +1,18 @@
+{% extends 'encyclopedia/layout.html' %}
+{% load static %}
+
+{% block title %}Create - Wiki {% endblock %}
+
+{% block body %}
+    <h1>Create New Page</h1>
+
+    <p><a href="https://www.markdownguide.org/basic-syntax/" target="_blank">Markdown guides</a></p>
+
+    <p>{{ error }}</p>
+    <form action="{% url 'create' %}" method="POST" id="form-create">
+        {% csrf_token %}
+        {{ form }}
+        <input type="submit" class="btn btn-primary" value="Save">
+    </form>
+
+{% endblock %}

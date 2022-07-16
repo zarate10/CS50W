@@ -1,0 +1,10 @@
+{% extends 'encyclopedia/layout.html' %}
+{% load static %}
+
+{% block title %}{{ entry }} - Wiki {% endblock %}
+{% block body %}
+<div class="box-error">
+    <h1>404</h1>
+    <p>{{ entry }} not found</p>
+</div>
+{% endblock %}
