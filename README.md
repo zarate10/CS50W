@@ -1,5 +1,5 @@
 ﻿# CS50W 
-Harvard's CS50: Web Programming with Python and JavaScript
+Harvard's CS50: Web Programming with Python and JavaScript.
 
 Proyecto | Título | Tópicos | Descripción
 :--:|--|--|--
